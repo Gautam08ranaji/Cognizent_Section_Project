@@ -1,0 +1,305 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100%;
+   
+}
+.cognizent-in-india{
+    height: 1053px;
+    width: 100%;
+
+      background: radial-gradient(at 18% 95%, #030060 0, rgba(3, 0, 96, .001) 80%), radial-gradient(at 85% 81%, #0ff 0, rgba(0, 255, 255, .001) 80%), radial-gradient(at 60% 99%, #3afded 10%, rgba(58, 253, 237, .001) 50%), radial-gradient(at 35% 15%, #fbf9e8 0, hsla(54, 70%, 95%, .75) 10%, hsla(54, 70%, 95%, .001) 20%), radial-gradient(at 39% 25%, #fcf7e7 0, hsla(46, 78%, 95%, .75) 30%, hsla(46, 78%, 95%, .001) 60%), radial-gradient(at 2% 2%, #f6d6d8 0, rgba(246, 214, 216, .001) 55%), radial-gradient(at 0 98%, #250075 0, rgba(37, 0, 117, .001) 85%), radial-gradient(at 98% 3%, #0037ad 0, rgba(0, 55, 173, .001) 85%), radial-gradient(at 76% 2%, #0270bb 10%, rgba(2, 112, 187, .001) 60%);
+    
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.cognizent-in-india-content-container{
+    height: 88%;
+    width: 93%;
+}
+
+.contact-us{
+
+    height: 200px;
+    width: 40px;
+    /* margin-left: 17px; */
+    background-color: #6aa2dc;
+    margin-bottom: 620px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 15px 0px 0px 15px;
+    position: fixed;
+    /* display: flex; */
+    margin-left: 97%;
+    background-position: top right;
+    /* float:right; */
+    
+    
+}
+
+.contact-us>p{
+    writing-mode: vertical-lr;
+    text-orientation: sideways;
+    font-weight: 700;
+}
+.contact-us a{
+    color: #084688;
+}
+.contact-us:hover{
+    cursor: pointer;
+    color:  #91b5db;
+}
+
+
+.cog-text{
+    height: 21%;
+    width: 100%;
+    background-color: #f76e6e;
+}
+.cognizent-in-india-content-container h3{
+    font-size: 3.35rem;
+    color: white;
+    /* margin: 20px 0px 50px 0px; */
+}
+
+.cognizent-in-india-content-container p{
+    font-size: 1.35rem;
+    color: white;
+    margin: 20px 0px 41px 0px;
+}
+
+
+/* inm-row-1 */
+
+.cog-img-container{
+    height: 42%;
+    width: 100%;
+    /* background-color: #191986; */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.img-row-1{
+    height: 40%;
+    width: 100%;
+    /* background-color: #19865a; */
+    display: flex;
+    cursor: pointer;
+}
+
+/* --------IMG - ROW - CHILD */
+
+.img-row-child{
+    height: 100%;
+    width: 49%;
+    background-color: #8d3d61;
+    border-radius: 15px;
+    position: relative;
+    overflow: hidden;
+    
+}
+
+.img-row-2{
+    height: 40%;
+    width: 100%;
+    /* background-color: #2b312f; */
+
+}
+
+.irc-row-1-left-child{
+    background-image: url('https://cognizant.scene7.com/is/image/cognizant/top-employer-in-india-tile-th-1');
+}
+.irc-row-1-right-child{
+    background-image: url('https://cognizant.scene7.com/is/image/cognizant/india-office-chennai-tile-1');
+}
+.irc-row-2-left-child{
+    background-image: url('https://cognizant.scene7.com/is/image/cognizant/nsdl-blockchain-platform-protects-investors-hero');
+}
+.irc-row-2-right-child{
+    background-image: url('https://cognizant.scene7.com/is/image/cognizant/vorwerk-thumbnail-2');
+}
+
+
+/*---------------- TRANSITION------------  */
+
+.transition-content{
+   
+
+    position: absolute;
+    bottom: -50%; 
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    transition: bottom 0.9s ease; 
+    background-color: rgba(14, 27, 105, 0.6);
+    display: flex;
+    flex-direction: column;
+    /* margin-left: 20px; */
+    gap: 20px;
+    z-index: 1;
+}
+
+.img-row-child:hover>.transition-content{
+    height: 100%;
+    width: 100%;
+    bottom: -100%; 
+    cursor: pointer;
+    z-index: 2;
+    /* scale: 1.05; */
+}
+
+
+.tc-a{
+    /* margin: 30px; */
+    color: white;
+    font-size: large;
+    text-decoration: none;
+    margin: 20px 0px 10px 25px;
+
+}
+
+h5{
+    text-decoration: none;
+    color: #0ff;
+    font-weight: 400;
+    font-size: 30px;
+    margin: 0px 0px 0px 25px;
+}
+.tc-h-a:hover{
+   color: white;
+}
+
+.tc-h-a:hover>.tc-h-a .tc-h-a-a{
+    color: white;
+}
+
+.hr-1{
+    width: 100px;
+    /* margin: 20px 0px 20px 25px; */
+    margin: 0px 0px 10px 25px;
+}
+.hr-2{
+    width: 100px;
+    margin: 0px 0px 10px 25px;
+}
+.hr-3{
+    width: 170px;
+    margin: 0px 0px 10px 25px;
+}
+.hr-4{
+    width: 156px;
+    margin: 0px 0px 10px 25px;
+}
+h5>a{
+    color: #3afded;
+    text-decoration: none;
+    display: flex;
+}
+
+h5:hover>a{
+    color: #3afded;
+    text-decoration: none;
+    display: flex;
+}
+h5:hover>a>.tc-h-a-a{
+    color: #3afded;
+    text-decoration: none;
+    display: flex;
+}
+.transition-content>p{
+    margin: 0px 0px 10px 25px;
+    font-size: 20px;
+}
+.tc-h-a>a{
+    display: flex;
+}
+
+.icon-img{
+    height: 50px;
+    width: 50px;
+    /* background-color: rgb(255, 0, 140); */
+    background-image: url('./images/play_arrow_48dp_FILL0_wght400_GRAD0_opsz48.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: -9px;
+}
+
+.icon-img-parent{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    /* background-color: rgb(153, 51, 114); */
+
+}
+.icon-img-parent:hover>.icon-img{
+   /* visibility: hidden;
+    */
+    display: none;
+}
+.icon-img-1{
+    height: 50px;
+    width: 50px;
+    /* background-color: rgb(153, 51, 114); */
+    /* visibility: hidden;
+     */
+     display: none;
+}
+.icon-img-parent:hover>.icon-img-1{
+    /* visibility: visible;
+     */
+     display: block;
+     background-image: url('./images/play_arrow_48dp_FILL0_wght400_GRAD0_opsz48\ \(1\).png');
+     background-repeat: no-repeat;
+     background-size: contain;
+     margin-top: -9px;
+ }
+
+
+ /* =================================================================================================== */
+
+ /*                             TRANSITION-CONTENT-1                                                    */
+
+ /* =================================================================================================== */
+
+ .transition-content-1{
+   
+
+    position: absolute;
+    bottom: -100%; 
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    transition: bottom 0.9s ease; 
+    background-color: rgba(14, 27, 105, 0.6);
+    display: flex;
+    flex-direction: column;
+    /* margin-left: 20px; */
+    z-index: 2;
+    gap: 20px;
+}
+
+.img-row-child:hover>.transition-content-1{
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    bottom: 0; 
+    /* position: relative; */
+    cursor: pointer;
+    
+}
+
+.transition-content-1>p{
+    margin: 0px 0px 10px 25px;
+    font-size: 20px;
+}
